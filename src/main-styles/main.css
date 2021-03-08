@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.center-div {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .bck-img {
   position: relative;
   height: 511px;
@@ -12,9 +17,10 @@
 }
 
 .logo {
-  width: 5vw;
-  height: 5vw;
-  background-color: blue;
+  width: 179px;
+  height: auto;
+  margin-left: 15px;
+  margin-top: 10px;
 }
 
 @font-face {
@@ -30,7 +36,7 @@
   font-family: panton-italic;
 }
 .learn-more {
-  width: 187px;
+  width: 13%;
   height: auto;
   background-color: #33A9F4;
   color: white;
@@ -38,11 +44,11 @@
   top: 0px;
   right: 0px;
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin-right: 25px;
   margin-top: 15px;
   font-family: panton;
-  font-size: 21pt;
+  font-size: 1.5vw;
   border-radius: 15px;
 }
 
