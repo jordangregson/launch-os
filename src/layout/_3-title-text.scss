@@ -1,4 +1,4 @@
-@import './fonts';
+@import '../assets/fonts/font-styles/panton-font';
 
 .title-div {
     // background-color: red;
@@ -11,4 +11,51 @@
 .launch-os {
     font-size: 5vw;
     font-family: panton;
+}
+
+.short-div {
+    background-color: red;
+    width: 35vw;
+}
+
+.short-desc {
+    color: white;
+    font-size: 2vw;
+    font-family: panton;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .title-div {
+        background-color: red;
+        width: 70vw;
+        height: auto;
+    
+        margin-top: 125px;
+    }
+    
+    .launch-os {
+        font-size: 13vw;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }
