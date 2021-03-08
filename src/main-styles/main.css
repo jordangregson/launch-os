@@ -17,7 +17,7 @@
 }
 
 .logo {
-  width: 179px;
+  width: 135px;
   height: auto;
   margin-left: 15px;
   margin-top: 10px;
@@ -36,7 +36,7 @@
   font-family: panton-italic;
 }
 .learn-more {
-  width: 13%;
+  width: 150px;
   height: auto;
   background-color: #33A9F4;
   color: white;
@@ -44,12 +44,36 @@
   top: 0px;
   right: 0px;
   text-align: center;
-  padding: 10px 10px;
+  padding: 5px 10px;
   margin-right: 25px;
   margin-top: 15px;
   font-family: panton;
-  font-size: 1.5vw;
+  font-size: 18pt;
   border-radius: 15px;
+}
+
+@font-face {
+  src: url(/src/assets/fonts/Panton.otf);
+  font-family: panton;
+}
+@font-face {
+  src: url(/src/assets/fonts/Panton\ExtraBold.otf);
+  font-family: panton-bold;
+}
+@font-face {
+  src: url(/src/assets/fonts/Panton\Regular\Italic.otf);
+  font-family: panton-italic;
+}
+.title-div {
+  background-color: red;
+  width: 500px;
+  height: auto;
+  margin-top: 5%;
+}
+
+.launch-os {
+  font-size: 5vw;
+  font-family: panton;
 }
 
 /*# sourceMappingURL=main.css.map */
