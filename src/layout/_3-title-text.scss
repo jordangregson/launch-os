@@ -2,25 +2,25 @@
 
 .title-div {
     // background-color: red;
-    width: 30vw;
+    width: 100%;
     height: auto;
 
     margin-top: 125px;
 }
 
 .launch-os {
-    font-size: 5vw;
+    font-size: 48pt;
     font-family: panton;
 }
 
 .short-div {
-    background-color: red;
-    width: 35vw;
+    // background-color: red;
+    width: 100%;
 }
 
 .short-desc {
     color: white;
-    font-size: 2vw;
+    font-size: 20pt;
     font-family: panton;
 }
 
@@ -28,18 +28,29 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .title-div {
-        background-color: red;
-        width: 70vw;
+        // background-color: red;
+        width: 100%;
         height: auto;
     
         margin-top: 125px;
     }
     
     .launch-os {
-        font-size: 13vw;
+        font-size: 36pt;
+        font-family: panton;
     }
-} 
-
+    
+    .short-div {
+        // background-color: red;
+        width: 100%;
+    }
+    
+    .short-desc {
+        color: white;
+        font-size: 15pt;
+        font-family: panton;
+    }
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 

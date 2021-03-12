@@ -1,0 +1,62 @@
+@import '../assets/fonts/font-styles/panton-font';
+
+.register-info {
+    font-family: panton;
+    font-size: 10pt;
+
+    margin-top: 30px;
+
+    color: #707070;
+}
+
+.register-btn {
+    font-family: panton;
+
+    margin-top: 10px;
+    height: 40px;
+    width: 190px;
+    
+
+    border: 1px solid #33A9F4;
+    border-radius: 15px;
+}
+
+.register-txt {
+    padding-top: 50px;
+    font-size: 20pt;
+    color: #33A9F4;
+}
+
+.register-cont {
+    margin-bottom: 100px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .register-info {
+        font-family: panton;
+    
+        margin-top: 40px;
+    
+        color: #707070;
+    }
+    
+    .register-btn {
+        font-family: panton;
+    
+        margin-top: 10px;
+        height: auto;
+        width: 175px;
+        
+        padding: 10px;
+    
+        border: 1px solid #33A9F4;
+        border-radius: 15px;
+    }
+    
+    .register-text {
+        padding-top: 50px;
+        font-size: 29pt;
+        color: #33A9F4;
+    }
+}

@@ -5,3 +5,14 @@
     background: url(../assets/bck-img.jpg) no-repeat center;
     background-size: cover;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .bck-img {
+        position: relative;
+        height: 411px;
+        overflow: hidden;
+        background: url(../assets/bck-img.jpg) no-repeat center;
+        background-size: cover;
+    }
+}

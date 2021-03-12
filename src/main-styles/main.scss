@@ -1,12 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    
+}
+
+body {
+  background-color: #EEF5F9;
 }
 
 .center-div
 {
   margin: 0 auto;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 
@@ -17,5 +26,9 @@
 @import '../layout/2-learn-more';
 
 @import '../layout/3-title-text';
+
+@import '../layout/4-signin';
+
+@import '../layout/5-register';
 
 
