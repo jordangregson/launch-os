@@ -45,14 +45,6 @@ a {
   src: url(/src/assets/fonts/Panton.otf);
   font-family: panton;
 }
-@font-face {
-  src: url(/src/assets/fonts/Panton\ExtraBold.otf);
-  font-family: panton-bold;
-}
-@font-face {
-  src: url(/src/assets/fonts/Panton\Regular\Italic.otf);
-  font-family: panton-italic;
-}
 .learn-more {
   width: 150px;
   height: auto;
@@ -73,14 +65,6 @@ a {
 @font-face {
   src: url(/src/assets/fonts/Panton.otf);
   font-family: panton;
-}
-@font-face {
-  src: url(/src/assets/fonts/Panton\ExtraBold.otf);
-  font-family: panton-bold;
-}
-@font-face {
-  src: url(/src/assets/fonts/Panton\Regular\Italic.otf);
-  font-family: panton-italic;
 }
 .title-div {
   width: 100%;
@@ -134,14 +118,6 @@ a {
   src: url(/src/assets/fonts/Panton.otf);
   font-family: panton;
 }
-@font-face {
-  src: url(/src/assets/fonts/Panton\ExtraBold.otf);
-  font-family: panton-bold;
-}
-@font-face {
-  src: url(/src/assets/fonts/Panton\Regular\Italic.otf);
-  font-family: panton-italic;
-}
 .signin-info {
   font-family: panton;
   margin-top: 40px;
@@ -190,14 +166,6 @@ a {
 @font-face {
   src: url(/src/assets/fonts/Panton.otf);
   font-family: panton;
-}
-@font-face {
-  src: url(/src/assets/fonts/Panton\ExtraBold.otf);
-  font-family: panton-bold;
-}
-@font-face {
-  src: url(/src/assets/fonts/Panton\Regular\Italic.otf);
-  font-family: panton-italic;
 }
 .register-info {
   font-family: panton;
